@@ -1,12 +1,10 @@
-import './App.css'
-
+// import './App.css'
+import LandingPage from './pages/landingPage'
 function App() {
-
-
   return (
     <>
-      <main className='font-extrabold text-lg'>
-        Hello Jesse
+      <main className='w-full' >
+        <LandingPage/>
       </main>
     </>
   )
